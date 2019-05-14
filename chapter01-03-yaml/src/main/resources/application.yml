@@ -1,0 +1,15 @@
+#配置端口号
+server:
+  port: 9090
+
+#配置文件赋值
+com:
+  louis:
+    name: SpringBoot通过properties方式取值
+    user: {username:admin,password:123456}
+    type: [properties,yaml]
+    pet:
+      breed: dog
+      #配置文件取值
+      name: ${com.louis.petName}
+    petName: 旺财
