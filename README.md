@@ -26,6 +26,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 
 * chapter01-01-helloworld（Spring Boot快速入门案例：HelloWorld）
 * chapter01-02-properties（Spring Boot配置管理：Properties配置）
+* chapter01-03-yaml（Spring Boot配置管理：通过YAML文件配置）
 
 
 ## 未完待续
