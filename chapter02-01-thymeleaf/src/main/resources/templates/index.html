@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<table border="1" cellspacing="0">
+    <tr>
+        <td colspan="2">Thymeleaf模版引擎：<span th:text="${name}"></span></td>
+    </tr>
+    <tr>
+        <td rowspan="2">输出对象属性值：</td>
+        <td>name：<span th:text="${people.getName()}"></span></td>
+    </tr>
+    <tr>
+        <td>petName：<span th:text="${people.getPetName()}"></span></td>
+    </tr>
+    <tr>
+        <td>输出集合遍历：</td>
+        <td>
+            <div th:each="type:${people.getType()}"><span th:text="${type}"></span></div>
+        </td>
+    </tr>
+    <tr>
+        <td>输出map属性：</td>
+        <td>
+            <span th:text="${people.getUser().get('username')}"></span>
+            <span th:text="${people.getUser()['password']}"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>算术运算符：</td>
+        <td>
+            直接运算：<span th:text="${1+2}"></span><br>
+            获取数据后再进行运算：<span th:text="${people.getAge() + 10}"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>比较运算符：</td>
+        <td>
+            直接运算：<span th:text="${1>2}"></span><br>
+            获取数据后再进行运算：<span th:text="${people.getAge() == 10}"></span>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
