@@ -1,6 +1,6 @@
 package com.springboot.controller;
 
-import com.springboot.entity.Louis;
+import com.springboot.entity.People;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @Autowired
-    Louis louis;
+    People people;
 
     @RequestMapping("/getYaml")
     public String helloWorld() {
-        return louis.toString();
+        return people.toString();
     }
 
 }

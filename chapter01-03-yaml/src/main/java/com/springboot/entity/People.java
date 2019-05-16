@@ -8,14 +8,14 @@ import java.util.Map;
 
 /**
  * @author Louis
- * @title: Louis
+ * @title: People
  * @projectName springbootstudy
  * @description: TODO
  * @date 2019/5/14 14:41
  */
 @Component
-@ConfigurationProperties(prefix = "com.louis")
-public class Louis {
+@ConfigurationProperties(prefix = "com.people")
+public class People {
 
     private String name;
     private String petName;
