@@ -16,6 +16,11 @@
         <module>chapter01-02-properties</module>
         <!--SpringBoot基础配置：YAML配置-->
         <module>chapter01-03-yaml</module>
+		
+		<!--  第二章：Spring Boot整合模版引擎和WEB开发  -->
+        <!--Spring Boot整合模版引擎：Thymeleaf-->
+        <module>chapter02-01-thymeleaf</module>
+		
     </modules>
 
     <properties>
