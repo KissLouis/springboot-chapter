@@ -17,7 +17,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     <u>Apache Maven 3.5.3</u>  
     <u>Spring Boot 2.1.0</u> 
 2. 初始化数据库 执行init.sql
-3. 修改application-dev.yml配置
+3. 修改application-dev.yml配置，设置IDE开发环境为UTF-8
 4. 运行相应模块Application
 
 ## 
@@ -27,6 +27,10 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 * chapter01-01-helloworld（Spring Boot快速入门案例：HelloWorld）
 * chapter01-02-properties（Spring Boot配置管理：Properties配置）
 * chapter01-03-yaml（Spring Boot配置管理：通过YAML文件配置）
+
+### 第二章：Spring Boot整合模版引擎和WEB开发
+
+* chapter02-01-thymeleaf（Spring Boot整合模版引擎：Thymeleaf）
 
 
 ## 未完待续
