@@ -31,6 +31,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 ### 第二章：Spring Boot整合模版引擎和WEB开发
 
 * chapter02-01-thymeleaf（Spring Boot整合模版引擎：Thymeleaf）
+* chapter02-02-freemarker（Spring Boot整合模版引擎：FreeMarker）
 
 
 ## 未完待续
