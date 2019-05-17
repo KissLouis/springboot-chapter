@@ -1,0 +1,38 @@
+server:
+  #设置Web容器端口号
+  port: 8080
+
+###自定义配置属性值
+#配置文件赋值
+com:
+  people:
+    #String
+    name: SpringBoot通过yaml方式取值
+    petName: 旺财
+    age: 10
+    #map
+    user: {username: admin,password: 123456}
+    #list
+    type: [properties,yaml]
+    #Object
+    pet:
+      breed: dog
+      #配置文件取值
+      name: ${com.people.petName}
+
+###freemarker静态资源配置
+spring:
+  freemarker:
+    #设定ftl文件路径
+    template-loader-path: classpath:/templates/
+    cache: false
+    charset: UTF-8
+    #是否检查模版位置
+    check-template-location: true
+    content-type: text/html
+    #是否将HttpServletRequest中的属性添加到Model中
+    expose-request-attributes: false
+    #是否将HttpSession中的属性添加到Model中
+    expose-session-attributes: false
+    request-context-attribute: request
+    suffix: .ftl
