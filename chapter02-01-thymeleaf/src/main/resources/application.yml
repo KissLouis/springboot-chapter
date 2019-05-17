@@ -18,7 +18,7 @@ com:
     pet:
       breed: dog
       #配置文件取值
-      name: ${com.louis.petName}
+      name: ${com.people.petName}
 
 ##thymeleaf静态资源配置
 spring:
