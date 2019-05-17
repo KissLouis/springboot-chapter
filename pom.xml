@@ -20,7 +20,9 @@
 		<!--  第二章：Spring Boot整合模版引擎和WEB开发  -->
         <!--Spring Boot整合模版引擎：Thymeleaf-->
         <module>chapter02-01-thymeleaf</module>
-		
+		<!--Spring Boot整合模版引擎：FreeMarker-->
+		<module>chapter02-02-freemarker</module>
+
     </modules>
 
     <properties>
