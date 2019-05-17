@@ -23,4 +23,4 @@ com:
     pet:
       breed: dog
       #配置文件取值
-      name: ${com.louis.petName}
+      name: ${com.people.petName}
