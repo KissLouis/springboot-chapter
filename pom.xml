@@ -22,6 +22,8 @@
         <module>chapter02-01-thymeleaf</module>
 		<!--Spring Boot整合模版引擎：FreeMarker-->
 		<module>chapter02-02-freemarker</module>
+		<!--Spring Boot整合Swagger2构建RESTful API-->
+		<module>chapter02-03-swagger2</module>
 
     </modules>
 
