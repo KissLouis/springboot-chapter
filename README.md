@@ -22,7 +22,6 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 * chapter02-02-freemarker（Spring Boot整合模版引擎：FreeMarker）
 * chapter02-03-swagger2（Spring Boot整合Swagger2：构建RESTful API）
 
-
 ## 
 
 ### 如何运行项目
