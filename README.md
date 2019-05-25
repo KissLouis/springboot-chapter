@@ -15,13 +15,15 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 * chapter01-01-helloworld（Spring Boot快速入门案例：HelloWorld）
 * chapter01-02-properties（Spring Boot配置管理：Properties配置）
 * chapter01-03-yaml（Spring Boot配置管理：通过YAML文件配置）
+* chapter01-04-lombok（Spring Boot集成lombok）
+
 
 ### 第二章：Spring Boot整合模版引擎和WEB开发
 
 * chapter02-01-thymeleaf（Spring Boot整合模版引擎：Thymeleaf）
 * chapter02-02-freemarker（Spring Boot整合模版引擎：FreeMarker）
 * chapter02-03-swagger2（Spring Boot整合Swagger2：构建RESTful API）
-
+* chapter02-04-global-exception-handle(Spring Boot整合全局异常处理)
 ## 
 
 ### 如何运行项目
