@@ -10,12 +10,14 @@
     <packaging>pom</packaging>
     <modules>
         <!--  第一章：Spring Boot入门包括基础配置  -->
-        <!--SpringBoot入门：HelloWorld-->
+        <!--Spring Boot入门：HelloWorld-->
         <module>chapter01-01-helloworld</module>
-        <!--SpringBoot基础配置：Properties配置-->
+        <!--Spring Boot基础配置：Properties配置-->
         <module>chapter01-02-properties</module>
-        <!--SpringBoot基础配置：YAML配置-->
+        <!--Spring Boot基础配置：YAML配置-->
         <module>chapter01-03-yaml</module>
+        <!--Spring Boot整合lombok-->
+        <module>chapter01-04-lombok</module>
 		
 		<!--  第二章：Spring Boot整合模版引擎和WEB开发  -->
         <!--Spring Boot整合模版引擎：Thymeleaf-->
@@ -24,6 +26,9 @@
 		<module>chapter02-02-freemarker</module>
 		<!--Spring Boot整合Swagger2构建RESTful API-->
 		<module>chapter02-03-swagger2</module>
+        <!--Spring Boot整合全局异常处理-->
+        <module>chapter02-04-global-exception-handle</module>
+
 
     </modules>
 
