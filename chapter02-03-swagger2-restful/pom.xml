@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chapter02-03-swagger2</artifactId>
+    <artifactId>chapter02-03-swagger2-restful</artifactId>
 
     <dependencies>
         <!--junit-->
