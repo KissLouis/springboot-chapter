@@ -16,8 +16,10 @@
         <module>chapter01-02-properties</module>
         <!--Spring Boot基础配置：YAML配置-->
         <module>chapter01-03-yaml</module>
-        <!--Spring Boot整合lombok-->
+        <!--Spring Boot整合Lombok-->
         <module>chapter01-04-lombok</module>
+        <!--Spring Boot使用Junit单元测试-->
+        <module>chapter01-05-test-junit</module>
 		
 		<!--  第二章：Spring Boot整合模版引擎和WEB开发  -->
         <!--Spring Boot整合模版引擎：Thymeleaf-->
@@ -30,6 +32,7 @@
         <module>chapter02-04-global-exception-handle</module>
 
 
+
     </modules>
 
     <properties>
@@ -38,7 +41,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-
+    <!-- Spring Boot 启动父依赖 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -47,11 +50,18 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--spring-boot-starter-->
+            <!-- spring-boot-starter：核心模块，包括自动配置支持、日志和YAML -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
                 <version>2.1.0.RELEASE</version>
+            </dependency>
+            <!-- spring-boot-starter-test：测试模块，包括JUnit、Hamcrest、Mockito -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>2.1.0.RELEASE</version>
+                <scope>test</scope>
             </dependency>
             <!--junit-->
             <dependency>
