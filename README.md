@@ -1,8 +1,10 @@
 # SpringBoot案例学习
-Spring Boot知识点整理、工程实践，并结合工作案例进行深入。  
-精选常用技术，不求全面，但求精华！！
 
-## 分享平台
+Spring Boot知识点整理、工程实践，并结合工作案例进行深入。  
+精选常用技术，不求全面，但求精华！！  
+集成一些常用的框架功能，方便快速开发。
+
+### 分享平台
 
 > csdn博客：[https://blog.csdn.net/m0_37116405](https://blog.csdn.net/m0_37116405)
 
@@ -12,18 +14,18 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 
 ### 第一章：基础入门
 
-* chapter01-01-helloworld（Spring Boot快速入门案例：HelloWorld）
-* chapter01-02-properties（Spring Boot配置管理：Properties配置）
-* chapter01-03-yaml（Spring Boot配置管理：通过YAML文件配置）
-* chapter01-04-lombok（Spring Boot集成lombok）
+    * chapter01-01-helloworld（Spring Boot快速入门案例：HelloWorld）
+    * chapter01-02-properties（Spring Boot配置管理：Properties配置）
+    * chapter01-03-yaml（Spring Boot配置管理：通过YAML文件配置）
+    * chapter01-04-lombok（Spring Boot集成Lombok）
+    * chapter01-05-test-junit（Spring Boot使用Junit单元测试）
 
+### 第二章：Spring Boot整合模版引擎和WEB开发  
+    * chapter02-01-thymeleaf（Spring Boot整合模版引擎：Thymeleaf）
+    * chapter02-02-freemarker（Spring Boot整合模版引擎：FreeMarker）
+    * chapter02-03-swagger2（Spring Boot整合Swagger2：构建RESTful API）
+    * chapter02-04-global-exception-handle(Spring Boot整合全局异常处理)
 
-### 第二章：Spring Boot整合模版引擎和WEB开发
-
-* chapter02-01-thymeleaf（Spring Boot整合模版引擎：Thymeleaf）
-* chapter02-02-freemarker（Spring Boot整合模版引擎：FreeMarker）
-* chapter02-03-swagger2（Spring Boot整合Swagger2：构建RESTful API）
-* chapter02-04-global-exception-handle(Spring Boot整合全局异常处理)
 ## 
 
 ### 如何运行项目
@@ -33,7 +35,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     <u>Apache Maven 3.5.3</u>  
     <u>Spring Boot 2.1.0</u> 
 2. 初始化数据库 执行init.sql
-3. 修改application-dev.yml配置，设置IDE开发环境为UTF-8
+3. 修改相应模块application.yml配置，设置IDE开发环境为UTF-8
 4. 运行相应模块Application
 
 
