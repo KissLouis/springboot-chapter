@@ -6,7 +6,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 
 ### 分享平台
 
-> csdn博客：[https://blog.csdn.net/m0_37116405](https://blog.csdn.net/m0_37116405)
+> CSDN博客：[https://blog.csdn.net/m0_37116405](https://blog.csdn.net/m0_37116405)
 
 > GitHub：[https://github.com/KissLouis](https://github.com/KissLouis)
 
@@ -25,6 +25,10 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter02-02-freemarker（Spring Boot整合模版引擎：FreeMarker）
     * chapter02-03-swagger2（Spring Boot整合Swagger2：构建RESTful API）
     * chapter02-04-global-exception-handle(Spring Boot整合全局异常处理)
+
+### 第三章：Spring Boot数据访问和整合数据库插件  
+    * chapter03-01-jpa（Spring Boot整合JPA快速入门：基于RESTful风格）
+
 
 ## 
 
