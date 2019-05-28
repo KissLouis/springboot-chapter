@@ -2,7 +2,7 @@ spring:
   #JDBC配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mytest?characterEncoding=utf-8&autoReconnect=true&useSSL=false&useUnicode=true&serverTimezone=UTC&allowMultiQueries=true
+    url: jdbc:mysql://localhost:3306/mytest?characterEncoding=utf-8&autoReconnect=true&useSSL=false&useUnicode=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true
     username: root
     password: 123456
   #JPA配置

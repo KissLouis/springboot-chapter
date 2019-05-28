@@ -1,9 +1,9 @@
 package com.springboot.entity;
 
 import lombok.Data;
-import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedBy;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -18,13 +18,14 @@ import java.util.Date;
 @Data
 @Entity
 @Table(name = "people")
+@EntityListeners(AuditingEntityListener.class)
 public class People {
 
     @Id
-    @GeneratedValue
-    private Integer id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "peopleId")
-    private String peopleId;
+    private Integer peopleId;
+
     @Column(name = "peopleName")
     private String peopleName;
     /**
@@ -32,13 +33,17 @@ public class People {
      */
     @Column(name = "password")
     private String password;
+
     private String salt;
+
     @Column(name = "status", columnDefinition = "int COMMENT '用户当前状态 0：异常 1：正常'")
     private Integer status;
-    @CreationTimestamp
-    @Column(name = "lastLoginTime", columnDefinition = "datetime COMMENT '上一次登陆时间' ")
-    private Date lastLoginTime;
-    @CreationTimestamp
+
+    @LastModifiedDate
+    @Column(name = "modifyTime")
+    private Date modifyTime;
+
+    @CreatedDate
     @Column(name = "createTime", columnDefinition = "timestamp COMMENT '创建时间'")
     private Date createTime;
 
