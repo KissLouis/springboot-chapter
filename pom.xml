@@ -34,6 +34,10 @@
 		<!--  第三章：Spring Boot连接sql数据库资源整合数据库插件  -->
 		<!--Spring Boot整合JPA快速入门-->
 		<module>chapter03-01-jpa</module>
+        <!--Spring Boot整合Mybatis-->
+		<module>chapter03-02-mybatis</module>
+        <!--Spring Boot整合Mybatis Annotation 注解案例-->
+		<module>chapter03-02-mybatis-annotation</module>
 
 
     </modules>
