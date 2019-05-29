@@ -28,6 +28,8 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 
 ### 第三章：Spring Boot数据访问和整合数据库插件  
     * chapter03-01-jpa（Spring Boot整合JPA快速入门：基于RESTful风格）
+    * chapter03-02-mybatis（Spring Boot整合Mybatis：基于RESTful风格）
+    * chapter03-01-jpa（Spring Boot整合Mybatis Annotation 注解案例：基于RESTful风格）
 
 
 ## 
