@@ -29,7 +29,8 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 ### 第三章：Spring Boot数据访问和整合数据库插件  
     * chapter03-01-jpa（Spring Boot整合JPA快速入门：基于RESTful风格）
     * chapter03-02-mybatis（Spring Boot整合Mybatis：基于RESTful风格）
-    * chapter03-01-jpa（Spring Boot整合Mybatis Annotation 注解案例：基于RESTful风格）
+    * chapter03-02-mybatis-annotation（Spring Boot整合Mybatis Annotation 注解案例：基于RESTful风格）
+    * chapter03-03-druid（Spring Boot使用Druid数据库连接池案例）
 
 
 ## 
@@ -38,7 +39,6 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 1. 运行环境  
     <u>Java1.8</u>  
     <u>MySQL 8.0 </u>  
-    <u>Apache Maven 3.5.3</u>  
     <u>Spring Boot 2.1.0</u> 
 2. 初始化数据库 执行init.sql
 3. 修改相应模块application.yml配置，设置IDE开发环境为UTF-8
@@ -46,5 +46,6 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 
 
 ### 未完待续
+如有问题，请联系博主~~  
 更多案例不断补充中。。。如果您觉得对你有用，就给我点个赞或加个star吧\(^o^)/~
 
