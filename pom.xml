@@ -38,6 +38,8 @@
 		<module>chapter03-02-mybatis</module>
         <!--Spring Boot整合Mybatis Annotation 注解案例-->
 		<module>chapter03-02-mybatis-annotation</module>
+		<!--Spring Boot使用Druid数据库连接池-->
+		<module>chapter03-03-druid</module>
 
 
     </modules>
