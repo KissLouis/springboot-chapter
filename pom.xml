@@ -40,7 +40,10 @@
 		<module>chapter03-02-mybatis-annotation</module>
 		<!--Spring Boot使用Druid数据库连接池-->
 		<module>chapter03-03-druid</module>
-
+        <!--Spring Boot使用Druid数据库连接池-->
+		<module>chapter03-04-pagehelper</module>
+        <!--Spring Boot整合Mybatis-Plus：基于RESTful风格-->
+		<module>chapter03-05-mybatis-plus</module>
 
     </modules>
 
