@@ -31,6 +31,8 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter03-02-mybatis（Spring Boot整合Mybatis：基于RESTful风格）
     * chapter03-02-mybatis-annotation（Spring Boot整合Mybatis Annotation 注解案例：基于RESTful风格）
     * chapter03-03-druid（Spring Boot使用Druid数据库连接池案例）
+    * chapter03-04-pagehelper（Spring Boot+Mybatis配置PaheHelper分页插件）
+    * chapter03-05-mybatis-plus（Spring Boot整合Mybatis-Plus：基于RESTful风格）
 
 
 ## 
