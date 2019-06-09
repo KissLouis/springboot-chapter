@@ -44,6 +44,8 @@
 		<module>chapter03-04-pagehelper</module>
         <!--Spring Boot整合Mybatis-Plus：基于RESTful风格-->
 		<module>chapter03-05-mybatis-plus</module>
+        <!--Spring Boot整合Redis -->
+        <module>chapter04-01-redis</module>
 
     </modules>
 
@@ -126,6 +128,12 @@
                 <artifactId>lombok</artifactId>
                 <version>1.18.6</version>
                 <optional>true</optional>
+            </dependency>
+            <!-- Spring Boot Redis 依赖 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>2.1.0.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
