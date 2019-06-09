@@ -34,6 +34,9 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter03-04-pagehelper（Spring Boot+Mybatis配置PaheHelper分页插件）
     * chapter03-05-mybatis-plus（Spring Boot整合Mybatis-Plus：基于RESTful风格）
 
+### 第四章：Spring Boot整合数据缓存  
+    * chapter04-01-redis（Spring Boot整合Redis及Redis工具类）
+
 
 ## 
 
