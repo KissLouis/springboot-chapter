@@ -40,10 +40,12 @@
         <module>chapter03-02-mybatis-annotation</module>
         <!--Spring Boot使用Druid数据库连接池-->
         <module>chapter03-03-druid</module>
-        <!--Spring Boot使用Druid数据库连接池-->
+        <!--Spring Boot+Mybatis配置PaheHelper分页插件 -->
         <module>chapter03-04-pagehelper</module>
-        <!--Spring Boot整合Mybatis-Plus：基于RESTful风格-->
+        <!--Spring Boot整合Mybatis-Plus：基于RESTful风格 -->
         <module>chapter03-05-mybatis-plus</module>
+
+        <!--  第四章：Spring Boot整合NoSQL数据缓存  -->
         <!--Spring Boot整合Redis -->
         <module>chapter04-01-redis</module>
 
@@ -70,59 +72,59 @@
                 <artifactId>spring-boot-starter</artifactId>
                 <version>2.1.0.RELEASE</version>
             </dependency>
-            <!-- spring-boot-starter-test：测试模块，包括JUnit、Hamcrest、Mockito -->
+            <!-- Spring Boot Test 依赖：测试模块，包括JUnit、Hamcrest、Mockito -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>2.1.0.RELEASE</version>
                 <scope>test</scope>
             </dependency>
-            <!--junit-->
+            <!-- Junit -->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
                 <scope>test</scope>
             </dependency>
-            <!--Spring-boot的web启动的jar包-->
+            <!-- Spring Boot Web 依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>2.1.0.RELEASE</version>
             </dependency>
-            <!--spring-boot实现热部署-->
+            <!-- spring-boot实现热部署 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-devtools</artifactId>
                 <version>2.1.0.RELEASE</version>
                 <optional>true</optional>
             </dependency>
-            <!--数据源配置-->
+            <!-- 数据源配置 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
                 <version>2.1.0.RELEASE</version>
             </dependency>
-            <!--mybatis依赖-->
+            <!-- Spring Boot Mybatis 依赖 -->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>2.0.0</version>
             </dependency>
-            <!--mysql驱动-->
+            <!-- MySQL 连接驱动依赖 -->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.11</version>
                 <scope>runtime</scope>
             </dependency>
-            <!--druid依赖-->
+            <!-- druid依赖 -->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>1.1.10</version>
             </dependency>
-            <!--lombok依赖-->
+            <!-- lombok依赖 -->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
