@@ -20,30 +20,30 @@
         <module>chapter01-04-lombok</module>
         <!--Spring Boot使用Junit单元测试-->
         <module>chapter01-05-test-junit</module>
-		
-		<!--  第二章：Spring Boot整合模版引擎和WEB开发  -->
+
+        <!--  第二章：Spring Boot整合模版引擎和WEB开发  -->
         <!--Spring Boot整合模版引擎：Thymeleaf-->
         <module>chapter02-01-thymeleaf</module>
-		<!--Spring Boot整合模版引擎：FreeMarker-->
-		<module>chapter02-02-freemarker</module>
-		<!--Spring Boot整合Swagger2构建RESTful API-->
-		<module>chapter02-03-swagger2-restful</module>
+        <!--Spring Boot整合模版引擎：FreeMarker-->
+        <module>chapter02-02-freemarker</module>
+        <!--Spring Boot整合Swagger2构建RESTful API-->
+        <module>chapter02-03-swagger2-restful</module>
         <!--Spring Boot整合全局异常处理-->
         <module>chapter02-04-global-exception-handle</module>
-		
-		<!--  第三章：Spring Boot连接sql数据库资源整合数据库插件  -->
-		<!--Spring Boot整合JPA快速入门-->
-		<module>chapter03-01-jpa</module>
+
+        <!--  第三章：Spring Boot连接sql数据库资源整合数据库插件  -->
+        <!--Spring Boot整合JPA快速入门-->
+        <module>chapter03-01-jpa</module>
         <!--Spring Boot整合Mybatis-->
-		<module>chapter03-02-mybatis</module>
+        <module>chapter03-02-mybatis</module>
         <!--Spring Boot整合Mybatis Annotation 注解案例-->
-		<module>chapter03-02-mybatis-annotation</module>
-		<!--Spring Boot使用Druid数据库连接池-->
-		<module>chapter03-03-druid</module>
+        <module>chapter03-02-mybatis-annotation</module>
         <!--Spring Boot使用Druid数据库连接池-->
-		<module>chapter03-04-pagehelper</module>
+        <module>chapter03-03-druid</module>
+        <!--Spring Boot使用Druid数据库连接池-->
+        <module>chapter03-04-pagehelper</module>
         <!--Spring Boot整合Mybatis-Plus：基于RESTful风格-->
-		<module>chapter03-05-mybatis-plus</module>
+        <module>chapter03-05-mybatis-plus</module>
         <!--Spring Boot整合Redis -->
         <module>chapter04-01-redis</module>
 
