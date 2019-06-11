@@ -36,6 +36,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 
 ### 第四章：Spring Boot整合NoSQL数据缓存  
     * chapter04-01-redis（Spring Boot整合Redis及Redis工具类）
+    * chapter04-01-redis-annotation（Spring Boot整合Redis Annotation实现缓存操作）
 
 
 ## 
