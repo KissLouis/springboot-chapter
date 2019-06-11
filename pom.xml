@@ -46,8 +46,11 @@
         <module>chapter03-05-mybatis-plus</module>
 
         <!--  第四章：Spring Boot整合NoSQL数据缓存  -->
-        <!--Spring Boot整合Redis -->
+        <!-- Spring Boot 整合 Redis 实现缓存操作 -->
         <module>chapter04-01-redis</module>
+        <!-- Spring Boot 整合 Redis Annotation 实现缓存操作 -->
+        <module>chapter04-01-redis-annotation</module>
+
 
     </modules>
 
