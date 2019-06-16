@@ -12,6 +12,7 @@ spring:
     generate-ddl: true
     #读取实体类column注解数据
     hibernate:
+    #加载hibernate自动更新数据库结构
       ddl-auto: update
       #JPA映射策略：不做修改，直接映射
       naming:
