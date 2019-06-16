@@ -1,12 +1,15 @@
 package com.springboot.service;
 
-import com.springboot.entity.People;
-import com.springboot.repository.PeopleRepository;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Optional;
+import com.springboot.entity.People;
+import com.springboot.repository.PeopleRepository;
+import com.springboot.util.Utils;
 
 /**
  * @author Louis
@@ -18,28 +21,31 @@ import java.util.Optional;
 @Service
 public class PeopleService {
 
-    @Autowired
-    private PeopleRepository peopleRepository;
+	@Autowired
+	private PeopleRepository peopleRepository;
 
-    public List findAll() {
-        return peopleRepository.findAll();
-    }
+	public List findAll() {
+		return peopleRepository.findAll();
+	}
 
-    public void delete(Integer integer) {
-        peopleRepository.deleteById(integer);
-    }
+	public void delete(Integer integer) {
+		peopleRepository.deleteById(integer);
+	}
 
-    public People flush(People people) {
-        return peopleRepository.saveAndFlush(people);
-    }
+	public People flush(People people) {
+		// 获取原对象
+		People updatePeople = peopleRepository.findById(people.getPeopleId()).get();
+		// 通过赋值修改的新的字段值。
+		BeanUtils.copyProperties(people, updatePeople, Utils.getNullPropertyNames(people));
+		return peopleRepository.saveAndFlush(updatePeople);
+	}
 
-    public People save(People people) {
-        return peopleRepository.save(people);
-    }
+	public People save(People people) {
+		return peopleRepository.save(people);
+	}
 
-    public Optional<People> findById(Integer id) {
-        return peopleRepository.findById(id);
-    }
-
+	public Optional<People> findById(Integer id) {
+		return peopleRepository.findById(id);
+	}
 
 }

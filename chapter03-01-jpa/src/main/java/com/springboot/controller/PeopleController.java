@@ -27,7 +27,7 @@ public class PeopleController {
      * @author Louis
      * @date 2019/5/27 21:35
      */
-    @GetMapping("/")
+    @GetMapping("")
     public Result findAll() {
         return new Result(ResultCode.SUCCESS, peopleService.findAll());
     }
