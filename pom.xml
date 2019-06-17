@@ -52,8 +52,8 @@
 		<module>chapter04-01-redis</module>
 		<!-- Spring Boot 整合 Redis Annotation 实现缓存操作 -->
 		<module>chapter04-01-redis-annotation</module>
-
-
+		<!-- Spring Boot 整合 MongoDB 实现缓存操作 -->
+		<module>chapter04-02-mongodb</module>
 	</modules>
 
 	<properties>
@@ -140,6 +140,12 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-redis</artifactId>
+				<version>2.1.0.RELEASE</version>
+			</dependency>
+			<!-- Spring Boot MongoDB 依赖 -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-data-mongodb</artifactId>
 				<version>2.1.0.RELEASE</version>
 			</dependency>
 		</dependencies>
