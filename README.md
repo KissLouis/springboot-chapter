@@ -35,9 +35,10 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter03-05-mybatis-plus（Spring Boot整合Mybatis-Plus：基于RESTful风格）
     * chapter03-06-mybatis-multidatasource（Spring Boot整合 Mybatis 实现 Druid 多数据源配置）
 
-### 第四章：Spring Boot整合NoSQL数据缓存  
+### 第四章：Spring Boot整合NoSQ及数据缓存  
     * chapter04-01-redis（Spring Boot整合Redis及Redis工具类）
     * chapter04-01-redis-annotation（Spring Boot整合Redis Annotation实现缓存操作）
+    * chapter04-02-mongodb（Spring Boot 整合 MongoDB 实现缓存操作）
 
 
 ## 
