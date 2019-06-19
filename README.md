@@ -39,6 +39,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter04-01-redis（Spring Boot整合Redis及Redis工具类）
     * chapter04-01-redis-annotation（Spring Boot整合Redis Annotation实现缓存操作）
     * chapter04-02-mongodb（Spring Boot 整合 MongoDB 实现缓存操作）
+    * chapter04-03-cache-ehcache（Spring Boot 整合 EhCache 实现缓存操作）
 
 
 ## 
