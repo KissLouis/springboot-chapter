@@ -28,6 +28,8 @@
 		<module>chapter02-02-freemarker</module>
 		<!--Spring Boot整合Swagger2构建RESTful API -->
 		<module>chapter02-03-swagger2-restful</module>
+		<!--Spring Boot整合文件上传 -->
+		<module>chapter02-03-web-upload</module>
 		<!--Spring Boot整合全局异常处理 -->
 		<module>chapter02-04-global-exception-handle</module>
 
