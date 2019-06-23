@@ -1,0 +1,3 @@
+server:
+  #设置Web容器端口号
+  port: 8080
