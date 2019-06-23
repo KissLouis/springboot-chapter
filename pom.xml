@@ -23,7 +23,7 @@
 
 		<!-- 第二章：Spring Boot整合模版引擎和WEB开发 -->
 		<!--Spring Boot整合模版引擎：Thymeleaf -->
-		<module>chapter02-01-thymeleaf</module>
+        <module>chapter02-01-thymeleaf</module>
 		<!--Spring Boot整合模版引擎：FreeMarker -->
 		<module>chapter02-02-freemarker</module>
 		<!--Spring Boot整合文件上传 -->
@@ -57,8 +57,13 @@
 		<!-- Spring Boot 整合 EhCache 实现缓存操作 -->
 		<module>chapter04-03-cache-ehcache</module>
 
-		<!-- 第五章：Spring Boot整合框架文档 -->
+		<!-- 第五章：Spring Boot整合api文档管理工具 -->
+        <!-- Spring Boot整合Swagger2构建RESTful API -->
 		<module>chapter05-01-swagger2</module>
+        <!-- Spring Boot整合REST Docs构建RESTful API -->
+		<module>chapter05-02-rest-docs</module>
+        <!-- Spring Boot整合apiDoc构建RESTful API -->
+		<module>chapter05-03-apidoc</module>
 
 	</modules>
 
@@ -110,6 +115,18 @@
 				<version>2.1.0.RELEASE</version>
 				<optional>true</optional>
 			</dependency>
+            <!-- Spring Boot Thymeleaf 依赖 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                <version>2.1.0.RELEASE</version>
+            </dependency>
+            <!-- Spring Boot FreeMarker 依赖 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-freemarker</artifactId>
+                <version>2.1.0.RELEASE</version>
+            </dependency>
 			<!-- 数据源配置 -->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
