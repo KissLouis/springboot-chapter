@@ -41,6 +41,11 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter04-02-mongodb（Spring Boot 整合 MongoDB 实现缓存操作）
     * chapter04-03-cache-ehcache（Spring Boot 整合 EhCache 实现缓存操作）
 
+### 第五章：Spring Boot整合构架文档
+    * chapter05-01-swagger2（Spring Boot整合Swagger2：构建RESTful API）
+    * chapter05-02-rest-docs（Spring Boot整合REST Docs：构建RESTful API）
+    * chapter05-03-apidoc（Spring Boot整合apiDoc：构建RESTful API）
+
 
 ## 
 
