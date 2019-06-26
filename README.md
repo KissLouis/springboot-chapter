@@ -32,7 +32,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter03-02-mybatis-annotation（Spring Boot整合Mybatis Annotation 注解案例：基于RESTful风格）
     * chapter03-03-druid（Spring Boot使用Druid数据库连接池案例）
     * chapter03-04-pagehelper（Spring Boot+Mybatis配置PaheHelper分页插件）
-    * chapter03-05-mybatis-plus（Spring Boot整合Mybatis-Plus：基于RESTful风格）
+    * chapter03-05-mybatis-plus（Spring Boot整合Mybatis-Plus及代码自动生成：基于RESTful风格）
     * chapter03-06-mybatis-multidatasource（Spring Boot整合 Mybatis 实现 Druid 多数据源配置）
 
 ### 第四章：Spring Boot整合NoSQ及数据缓存  
@@ -41,10 +41,14 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter04-02-mongodb（Spring Boot 整合 MongoDB 实现缓存操作）
     * chapter04-03-cache-ehcache（Spring Boot 整合 EhCache 实现缓存操作）
 
-### 第五章：Spring Boot整合构架文档
+### 第五章：Spring Boot整合Api构架文档
     * chapter05-01-swagger2（Spring Boot整合Swagger2：构建RESTful API）
     * chapter05-02-rest-docs（Spring Boot整合REST Docs：构建RESTful API）
     * chapter05-03-apidoc（Spring Boot整合apiDoc：构建RESTful API）
+
+### 第六章：Spring Boot整合任务调度
+    * chapter06-01-task（Spring Boot整合SpringTask实现简单任务调度）
+    * chapter06-02-quartz（Spring Boot整合Quartz实现动态任务调度）
 
 
 ## 
