@@ -66,8 +66,14 @@
         <module>chapter05-03-apidoc</module>
 
         <!-- 第六章：Spring Boot整合任务调度 -->
+        <!-- Spring Boot整合SpringTask实现简单任务调度 -->
         <module>chapter06-01-task</module>
+        <!-- Spring Boot整合Quartz实现动态定时任务 -->
         <module>chapter06-02-quartz</module>
+
+        <!-- 第七章：Spring Boot整合安全控制及权限篇 -->
+        <!-- Spring Boot整合Spring Security实现安全管理-入门（一）：登录和退出 -->
+        <module>chapter07-01-springsecurity-01-login</module>
 
     </modules>
 
@@ -75,28 +81,31 @@
         <jdk.version>1.8</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <springboot.project.version>2.1.0.RELEASE</springboot.project.version>
     </properties>
 
     <!-- Spring Boot 启动父依赖 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.0.RELEASE</version>
+        <version>${springboot.project.version}</version>
     </parent>
 
+    <!-- dependencyManagement简介 -->
+    <!-- dependencyManagement元素的作用：对项目中多个模块的公关依赖进行版本控制 -->
     <dependencyManagement>
         <dependencies>
             <!-- spring-boot-starter：核心模块，包括自动配置支持、日志和YAML -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
             </dependency>
             <!-- Spring Boot Test 依赖：测试模块，包括JUnit、Hamcrest、Mockito -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
                 <scope>test</scope>
             </dependency>
             <!-- Junit -->
@@ -110,32 +119,32 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
             </dependency>
             <!-- spring-boot实现热部署 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-devtools</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
                 <optional>true</optional>
             </dependency>
             <!-- Spring Boot Thymeleaf 依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-thymeleaf</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
             </dependency>
             <!-- Spring Boot FreeMarker 依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-freemarker</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
             </dependency>
             <!-- 数据源配置 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
             </dependency>
             <!-- Spring Boot Mybatis 依赖 -->
             <dependency>
@@ -167,19 +176,19 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-redis</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
             </dependency>
             <!-- Spring Boot MongoDB 依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-mongodb</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
             </dependency>
             <!-- Spring Boot cache 依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-cache</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
             </dependency>
             <!-- Ehcache -->
             <dependency>
@@ -191,7 +200,13 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-quartz</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>${springboot.project.version}</version>
+            </dependency>
+            <!-- Spring Boot Spring Security 依赖 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-security</artifactId>
+                <version>${springboot.project.version}</version>
             </dependency>
         </dependencies>
 
