@@ -1,0 +1,16 @@
+spring:
+  ##thymeleaf静态资源配置  
+  thymeleaf:
+    ##模版模式
+    mode: HTML5
+    ##编码
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    ##关闭模版缓存，即时刷新
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+  mvc:
+    ##配置MVC静态资源映射
+    static-path-pattern: /**
