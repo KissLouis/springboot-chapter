@@ -50,6 +50,9 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter06-01-task（Spring Boot整合SpringTask实现简单任务调度）
     * chapter06-02-quartz（Spring Boot整合Quartz实现动态任务调度）
 
+### 第七章：Spring Boot整合安全控制及权限篇
+    * chapter07-01-springsecurity-01-login（Spring Boot整合Spring Security实现安全管理-入门（一）：登录和退出）
+
 
 ## 
 
