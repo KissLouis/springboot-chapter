@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+</head>
+<body>
+<body>
+<h1>个人中心</h1>
+<table>
+    <tr>
+        <td>用户名：</td>
+        <td><span th:text="${username}"></span></td>
+    </tr>
+    <tr>
+        <td>
+            <form method="post" th:action="@{/logout}">
+                <button style="margin-top: 20px" type="submit">退出登录</button>
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</body>
+
+
+</html>
