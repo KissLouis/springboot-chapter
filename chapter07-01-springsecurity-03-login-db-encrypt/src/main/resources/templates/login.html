@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+</head>
+<body>
+<form method="post" th:action="@{/login}">
+    <table>
+        <tr>
+            <td>用户名：</td>
+            <td><input name="username" type="text"></td>
+        </tr>
+        <tr>
+            <td>密&nbsp;码：</td>
+            <td><input name="password" type="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button th:text="立即登录" th:type="submit"></button>
+            </td>
+        </tr>
+        <tr>
+            <p th:if="${param.error}" th:text="${session?.SPRING_SECURITY_LAST_EXCEPTION?.message}"></p>
+        </tr>
+    </table>
+</form>
+<table>
+    <tr>
+        <td colspan="2"><a th:href="@{/register}">
+            <button th:text="立即注册"></button>
+        </a></td>
+    </tr>
+</table>
+</body>
+
+
+</html>
