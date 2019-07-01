@@ -54,6 +54,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter07-01-springsecurity-01-login（Spring Boot整合Spring Security实现安全管理-入门（一）：登录和退出）
     * chapter07-01-springsecurity-02-login-db（Spring Boot整合Spring Security实现安全管理-入门（二）：基于数据库验证）
     * chapter07-01-springsecurity-03-login-db-encrypt（Spring Boot整合Spring Security实现安全管理-入门（三）：密码加密）
+    * chapter07-01-springsecurity-04-verifycode（Spring Boot整合Spring Security实现安全管理-入门（四）：实现图形验证码）
 
 
 ## 
