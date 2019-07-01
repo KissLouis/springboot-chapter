@@ -78,6 +78,8 @@
         <module>chapter07-01-springsecurity-02-login-db</module>
         <!-- Spring Boot整合Spring Security实现安全管理-入门（三）：密码加密 -->
         <module>chapter07-01-springsecurity-03-login-db-encrypt</module>
+        <!-- Spring Boot整合Spring Security实现安全管理-入门（四）：实现图形验证码 -->
+        <module>chapter07-01-springsecurity-04-verifycode</module>
 
     </modules>
 
@@ -212,6 +214,14 @@
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>${springboot.project.version}</version>
             </dependency>
+            <!-- spring-social-web 依赖 -->
+            <dependency>
+                <groupId>org.springframework.social</groupId>
+                <artifactId>spring-social-web</artifactId>
+                <version>1.1.6.RELEASE</version>
+            </dependency>
+
+
         </dependencies>
 
     </dependencyManagement>
