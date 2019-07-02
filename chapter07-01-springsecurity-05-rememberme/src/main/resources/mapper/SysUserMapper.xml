@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.mapper.sys.SysUserMapper">
+
+    <sql id="Base_column_List">
+      id,userId,userName,PASSWORD,salt,STATUS,create_Time as createTime,modify_time as modifyTime
+    </sql>
+
+    <select id="getUserByUsername" resultType="com.springboot.entity.sys.SysUser">
+        SELECT
+        <include refid="Base_column_List"/>
+        FROM sys_user
+        <where>
+            1 = 1
+            <if test=" userName != null and userName != '' ">
+                and userName = #{userName}
+            </if>
+        </where>
+    </select>
+
+    <insert id="insert" parameterType="com.springboot.entity.sys.SysUser">
+        INSERT INTO sys_user(userId,userName,PASSWORD,salt)
+        VALUES(#{userId},#{userName},#{password},#{salt});
+    </insert>
+
+</mapper>
