@@ -56,6 +56,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter07-01-springsecurity-03-login-db-encrypt（Spring Boot整合Spring Security实现安全管理-入门（三）：密码加密）
     * chapter07-01-springsecurity-04-verifycode（Spring Boot整合Spring Security实现安全管理-入门（四）：实现图形验证码）
     * chapter07-01-springsecurity-05-rememberme（Spring Boot整合Spring Security实现安全管理-入门（五）：实现"记住我"功能）
+    * chapter07-01-springsecurity-06-smscode（Spring Boot整合Spring Security实现安全管理-入门（六）：实现短信验证码功能）
 
 
 ## 
