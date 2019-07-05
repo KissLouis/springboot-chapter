@@ -82,6 +82,8 @@
         <module>chapter07-01-springsecurity-04-verifycode</module>
         <!-- Spring Boot整合Spring Security实现安全管理-入门（五）：实现"记住我"功能 -->
         <module>chapter07-01-springsecurity-05-rememberme</module>
+        <!-- Spring Boot整合Spring Security实现安全管理-入门（六）：实现短信验证码功能 -->
+        <module>chapter07-01-springsecurity-06-smscode</module>
 
     </modules>
 
