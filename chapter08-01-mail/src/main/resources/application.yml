@@ -1,0 +1,21 @@
+##配置邮件发送参数
+##以QQ邮箱为例
+spring:
+  mail:
+    #QQ邮箱服务器
+    host: smtp.qq.com
+    #端口
+    port: 465
+    #QQ邮箱账户
+    username: xxx@qq.com
+    #你的QQ邮箱第三方授权码
+    password: xxxxxx
+    #编码类型
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
