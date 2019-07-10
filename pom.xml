@@ -85,6 +85,10 @@
         <!-- Spring Boot整合Spring Security实现安全管理-入门（六）：实现短信验证码功能 -->
         <module>chapter07-01-springsecurity-06-smscode</module>
 
+        <!-- 第八章：Spring Boot企业开发 -->
+        <!-- Spring Boot整合mail邮件发送 -->
+		<module>chapter08-01-mail</module>
+
     </modules>
 
     <properties>
@@ -223,6 +227,12 @@
                 <groupId>org.springframework.social</groupId>
                 <artifactId>spring-social-web</artifactId>
                 <version>1.1.6.RELEASE</version>
+            </dependency>
+            <!-- Spring Boot mail 依赖 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-mail</artifactId>
+                <version>${springboot.project.version}</version>
             </dependency>
 
 
