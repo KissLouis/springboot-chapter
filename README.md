@@ -58,6 +58,9 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter07-01-springsecurity-05-rememberme（Spring Boot整合Spring Security实现安全管理-入门（五）：实现"记住我"功能）
     * chapter07-01-springsecurity-06-smscode（Spring Boot整合Spring Security实现安全管理-入门（六）：实现短信验证码功能）
 
+### 第八章：Spring Boot企业开发
+    * chapter08-01-mail（Spring Boot整合mail邮件发送）
+
 
 ## 
 
