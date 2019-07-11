@@ -1,0 +1,21 @@
+server:
+  #设置Web容器端口号
+  port: 8080
+
+spring:
+  ##修改默认messages配置前缀
+  messages:
+    basename: static/i18n/messages
+    encoding: UTF-8
+  ##thymeleaf静态资源配置  
+  thymeleaf:
+    #模版模式
+    mode: HTML5
+    #编码
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    #关闭模版缓存，即时刷新
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
