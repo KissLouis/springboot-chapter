@@ -65,11 +65,13 @@
         <!-- Spring Boot整合apiDoc构建RESTful API -->
         <module>chapter05-03-apidoc</module>
 
-        <!-- 第六章：Spring Boot整合任务调度 -->
+        <!-- 第六章：Spring Boot整合任务调度及批量处理 -->
         <!-- Spring Boot整合SpringTask实现简单任务调度 -->
         <module>chapter06-01-task</module>
         <!-- Spring Boot整合Quartz实现动态定时任务 -->
         <module>chapter06-02-quartz</module>
+        <!-- Spring Boot整合SpringBatch实现批处理 -->
+		<module>chapter06-03-springbatch</module>
 
         <!-- 第七章：Spring Boot整合安全控制及权限篇 -->
         <!-- Spring Boot整合Spring Security实现安全管理-入门（一）：登录和退出 -->
@@ -217,6 +219,12 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-quartz</artifactId>
+                <version>${springboot.project.version}</version>
+            </dependency>
+            <!-- Spring Boot batch 依赖 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-batch</artifactId>
                 <version>${springboot.project.version}</version>
             </dependency>
             <!-- Spring Boot Spring Security 依赖 -->
