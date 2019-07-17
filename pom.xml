@@ -74,6 +74,7 @@
 		<module>chapter06-03-springbatch</module>
 
         <!-- 第七章：Spring Boot整合安全控制及权限篇 -->
+		<module>chapter07-01-springsecurity</module>
         <!-- Spring Boot整合Spring Security实现安全管理-入门（一）：登录和退出 -->
         <module>chapter07-01-springsecurity-01-login</module>
         <!-- Spring Boot整合Spring Security实现安全管理-入门（二）：基于数据库验证 -->
