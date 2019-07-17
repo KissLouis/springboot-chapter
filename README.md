@@ -27,7 +27,6 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter02-03-web-upload(Spring Boot整合文件上传：单文件上传，多文件上传，七牛云上传)
     * chapter02-04-global-exception-handle(Spring Boot整合全局异常处理)
 
-
 ### 第三章：Spring Boot数据访问和整合数据库插件  
     * chapter03-01-jpa（Spring Boot整合JPA快速入门：基于RESTful风格）
     * chapter03-02-mybatis（Spring Boot整合Mybatis：基于RESTful风格）
@@ -48,12 +47,13 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter05-02-rest-docs（Spring Boot整合REST Docs：构建RESTful API）
     * chapter05-03-apidoc（Spring Boot整合apiDoc：构建RESTful API）
 
-### 第六章：Spring Boot整合任务调度
+### 第六章：Spring Boot整合任务调度及批处理
     * chapter06-01-task（Spring Boot整合SpringTask实现简单任务调度）
     * chapter06-02-quartz（Spring Boot整合Quartz实现动态任务调度）
     * chapter06-03-springbatch（Spring Boot整合SpringBatch实现批处理）
 
 ### 第七章：Spring Boot整合安全控制及权限篇
+    * chapter07-01-springsecurity（Spring Boot整合Spring Security实现安全管理<JSON集成版>）
     * chapter07-01-springsecurity-01-login（Spring Boot整合Spring Security实现安全管理-入门（一）：登录和退出）
     * chapter07-01-springsecurity-02-login-db（Spring Boot整合Spring Security实现安全管理-入门（二）：基于数据库验证）
     * chapter07-01-springsecurity-03-login-db-encrypt（Spring Boot整合Spring Security实现安全管理-入门（三）：密码加密）
