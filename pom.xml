@@ -93,6 +93,8 @@
 		<module>chapter08-01-mail</module>
         <!-- Spring Boot支持国际化i18n -->
 		<module>chapter08-02-i18n</module>
+		<!-- Spring Boot整合WebSocket -->
+		<module>chapter08-03-websocket</module>
 		
 
     </modules>
@@ -246,6 +248,11 @@
                 <artifactId>spring-boot-starter-mail</artifactId>
                 <version>${springboot.project.version}</version>
             </dependency>
+			<!--Spring Boot WebSocket 依赖 -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-websocket</artifactId>
+			</dependency>
 
 
         </dependencies>
