@@ -64,6 +64,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 ### 第八章：Spring Boot企业开发
     * chapter08-01-mail（Spring Boot整合mail邮件发送）
     * chapter08-02-i18n（Spring Boot支持国际化i18n）
+    * chapter08-03-websocket（Spring Boot整合WebSocket）
 
 
 ## 
