@@ -60,6 +60,8 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter07-01-springsecurity-04-verifycode（Spring Boot整合Spring Security实现安全管理-入门（四）：实现图形验证码）
     * chapter07-01-springsecurity-05-rememberme（Spring Boot整合Spring Security实现安全管理-入门（五）：实现"记住我"功能）
     * chapter07-01-springsecurity-06-smscode（Spring Boot整合Spring Security实现安全管理-入门（六）：实现短信验证码功能）
+    * chapter07-03-shiro（Spring Boot 整合Shiro 实现登陆认证和权限控制）
+    * chapter07-03-shiro-jwt（Spring Boot 整合Shiro + JWT 实现登陆认证和权限控制）
     * chapter07-04-https（Spring Boot配置HTTPS,并实现HTTP访问自动转HTTPS访问）
 
 ### 第八章：Spring Boot企业开发
