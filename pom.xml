@@ -87,6 +87,10 @@
         <module>chapter07-01-springsecurity-05-rememberme</module>
         <!-- Spring Boot整合Spring Security实现安全管理-入门（六）：实现短信验证码功能 -->
         <module>chapter07-01-springsecurity-06-smscode</module>
+		<!-- Spring Boot 整合 Shiro -->
+		<module>chapter07-03-shiro</module>
+		<!-- Spring Boot 整合 Shiro JWT -->
+		<module>chapter07-03-shiro-jwt</module>
 		<!-- Spring Boot配置HTTPS -->
 		<module>chapter07-04-https</module>
 		
@@ -239,6 +243,18 @@
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>${springboot.project.version}</version>
             </dependency>
+			<!-- spring shiro依赖 -->
+			<dependency>
+				<groupId>org.apache.shiro</groupId>
+				<artifactId>shiro-spring</artifactId>
+				<version>1.4.0</version>
+			</dependency>
+			<!-- JWT依赖 -->
+			<dependency>
+				<groupId>com.auth0</groupId>
+				<artifactId>java-jwt</artifactId>
+				<version>3.4.0</version>
+			</dependency>
             <!-- spring-social-web 依赖 -->
             <dependency>
                 <groupId>org.springframework.social</groupId>
