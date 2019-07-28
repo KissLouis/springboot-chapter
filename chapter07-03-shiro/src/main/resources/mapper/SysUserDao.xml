@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.dao.SysUserDao">
+
+	<sql id="Base_column_List">
+		id,userId,userName,PASSWORD,salt,STATUS,create_Time as
+		createTime,modify_time as modifyTime
+	</sql>
+
+	<select id="getUserByUsername" resultType="com.springboot.entity.SysUser">
+		SELECT
+		<include refid="Base_column_List" />
+		FROM sys_user
+		<where>
+			userName = #{userName}
+		</where>
+	</select>
+
+	<insert id="insert" parameterType="com.springboot.entity.SysUser">
+		INSERT INTO
+		sys_user(userId,username,PASSWORD,salt)
+		VALUES(#{userId},#{username},#{password},#{salt});
+	</insert>
+
+
+	<select id="getPassword" resultType="java.lang.String">
+		SELECT PASSWORD FROM
+		sys_user WHERE userName = #{userName}
+	</select>
+
+	<select id="getRoles" resultType="java.lang.String">
+		SELECT
+			r.role_name
+		FROM
+			sys_user u,
+			sys_role r,
+			sys_user_role ur
+		WHERE
+			u.id = ur.user_id
+		AND r.id = ur.role_id
+		AND u.userName = #{userName}
+	</select>
+	
+	
+	<select id="getPermissions" resultType="java.lang.String">
+		SELECT
+			r.role_name
+		FROM
+			sys_user u,
+			sys_role r,
+			sys_user_role ur
+		WHERE
+			u.id = ur.user_id
+		AND r.id = ur.role_id
+		AND u.userName = #{userName}
+	</select>
+	
+
+</mapper>
