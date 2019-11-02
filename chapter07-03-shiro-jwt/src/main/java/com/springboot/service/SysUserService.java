@@ -1,6 +1,6 @@
-package com.springboot.service.sys;
+package com.springboot.service;
 
-import com.springboot.entity.sys.SysUser;
+import com.springboot.entity.SysUser;
 
 /**
  * @author Louis
@@ -11,7 +11,7 @@ import com.springboot.entity.sys.SysUser;
  */
 public interface SysUserService {
 
-    SysUser getUserByUsername(String userName);
-
     void insert(SysUser user);
+
+    String login(String username,String password);
 }
