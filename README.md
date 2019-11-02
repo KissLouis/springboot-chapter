@@ -53,17 +53,14 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter06-03-springbatch（Spring Boot整合SpringBatch实现批处理）
 
 ### 第七章：Spring Boot整合安全控制及权限篇
-    * chapter07-01-springsecurity（Spring Boot整合Spring Security实现安全管理<JSON集成版>）
-    * chapter07-01-springsecurity-01-login（Spring Boot整合Spring Security实现安全管理-入门（一）：登录和退出）
-    * chapter07-01-springsecurity-02-login-db（Spring Boot整合Spring Security实现安全管理-入门（二）：基于数据库验证）
-    * chapter07-01-springsecurity-03-login-db-encrypt（Spring Boot整合Spring Security实现安全管理-入门（三）：密码加密）
-    * chapter07-01-springsecurity-04-verifycode（Spring Boot整合Spring Security实现安全管理-入门（四）：实现图形验证码）
-    * chapter07-01-springsecurity-05-rememberme（Spring Boot整合Spring Security实现安全管理-入门（五）：实现"记住我"功能）
-    * chapter07-01-springsecurity-06-smscode（Spring Boot整合Spring Security实现安全管理-入门（六）：实现短信验证码功能）
+    * chapter07-01-springsecurity（Spring Boot整合Spring Security实现安全管理）
     * chapter07-03-shiro（Spring Boot 整合Shiro 实现登陆认证和权限控制）
     * chapter07-03-shiro-jwt（Spring Boot 整合Shiro + JWT 实现登陆认证和权限控制）
     * chapter07-04-https（Spring Boot配置HTTPS,并实现HTTP访问自动转HTTPS访问）
 
+####  [点击进入Spring Boot 整合 Spring Security实现安全管理系列]
+
+[点击进入Spring Boot 整合 Spring Security]: https://github.com/KissLouis/SpringBoot-SpringSecurity/ "GitHub"
 ### 第八章：Spring Boot企业开发
     * chapter08-01-mail（Spring Boot整合mail邮件发送）
     * chapter08-02-i18n（Spring Boot支持国际化i18n）
@@ -78,7 +75,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     <u>MySQL 8.0 </u>  
     <u>Spring Boot 2.1.0</u> 
 2. 初始化数据库 执行init.sql
-3. 修改相应模块application.yml配置，设置IDE开发环境为UTF-8
+3. 修改相应模块application.yml配置，设置IDE开发环境为UTF-8，IDE需配置lombok
 4. 运行相应模块Application
 
 
