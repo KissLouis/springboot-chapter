@@ -1,4 +1,4 @@
-package com.springboot.entity.sys;
+package com.springboot.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
