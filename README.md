@@ -10,6 +10,8 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
 
 > GitHub：[https://github.com/KissLouis](https://github.com/KissLouis)
 
+> Spring Boot 整合 Spring Security实现安全管理：[https://github.com/KissLouis/SpringBoot-SpringSecurity](https://github.com/KissLouis/SpringBoot-SpringSecurity)
+
 ## 
 
 ### 第一章：基础入门
@@ -58,9 +60,8 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter07-03-shiro-jwt（Spring Boot 整合Shiro + JWT 实现登陆认证和权限控制）
     * chapter07-04-https（Spring Boot配置HTTPS,并实现HTTP访问自动转HTTPS访问）
 
-####  [点击进入Spring Boot 整合 Spring Security实现安全管理系列]
+[点击进入Spring Boot整合Spring Security实现安全管理系列](https://github.com/KissLouis/SpringBoot-SpringSecurity)
 
-[点击进入Spring Boot 整合 Spring Security]: https://github.com/KissLouis/SpringBoot-SpringSecurity/ "GitHub"
 ### 第八章：Spring Boot企业开发
     * chapter08-01-mail（Spring Boot整合mail邮件发送）
     * chapter08-02-i18n（Spring Boot支持国际化i18n）
@@ -75,7 +76,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     <u>MySQL 8.0 </u>  
     <u>Spring Boot 2.1.0</u> 
 2. 初始化数据库 执行init.sql
-3. 修改相应模块application.yml配置，设置IDE开发环境为UTF-8，IDE需配置lombok
+3. 修改相应模块application.yml配置，设置IDE开发环境为UTF-8，IDE需配置Lombok插件
 4. 运行相应模块Application
 
 
