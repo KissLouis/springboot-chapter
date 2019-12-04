@@ -60,7 +60,7 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter07-03-shiro-jwt（Spring Boot 整合Shiro + JWT 实现登陆认证和权限控制）
     * chapter07-04-https（Spring Boot配置HTTPS,并实现HTTP访问自动转HTTPS访问）
 
-[点击进入Spring Boot整合Spring Security实现安全管理系列](https://github.com/KissLouis/SpringBoot-SpringSecurity)
+[<u>点击进入Spring Boot整合Spring Security实现安全管理系列<u>](https://github.com/KissLouis/SpringBoot-SpringSecurity)
 
 ### 第八章：Spring Boot企业开发
     * chapter08-01-mail（Spring Boot整合mail邮件发送）
