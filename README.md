@@ -59,13 +59,18 @@ Spring Boot知识点整理、工程实践，并结合工作案例进行深入。
     * chapter07-03-shiro（Spring Boot 整合Shiro 实现登陆认证和权限控制）
     * chapter07-03-shiro-jwt（Spring Boot 整合Shiro + JWT 实现登陆认证和权限控制）
     * chapter07-04-https（Spring Boot配置HTTPS,并实现HTTP访问自动转HTTPS访问）
-
 [<u>点击进入Spring Boot整合Spring Security实现安全管理系列<u>](https://github.com/KissLouis/SpringBoot-SpringSecurity)
+
 
 ### 第八章：Spring Boot企业开发
     * chapter08-01-mail（Spring Boot整合mail邮件发送）
     * chapter08-02-i18n（Spring Boot支持国际化i18n）
     * chapter08-03-websocket（Spring Boot整合WebSocket）
+
+### 第九章：Spring Boot整合消息队列
+    * chapter09-01-rabbitmq-demo（Spring Boot整合Rabbit MQ简单案例）
+    * chapter09-01-rabbitmq-producer（Spring Boot整合Rabbit MQ生产消息）
+    * chapter09-01-rabbitmq-consumer（Spring Boot整合Rabbit MQ接收消息）
 
 
 ## 
