@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Spring Boot 启动父依赖 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.0.RELEASE</version>
+    </parent>
+
     <groupId>com.louis</groupId>
     <artifactId>springboot-study</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -71,26 +78,34 @@
         <!-- Spring Boot整合Quartz实现动态定时任务 -->
         <module>chapter06-02-quartz</module>
         <!-- Spring Boot整合SpringBatch实现批处理 -->
-		<module>chapter06-03-springbatch</module>
+        <module>chapter06-03-springbatch</module>
 
         <!-- 第七章：Spring Boot整合安全控制及权限篇 -->
-		<module>chapter07-01-springsecurity</module>
-		<!-- Spring Boot 整合 Shiro -->
-		<module>chapter07-03-shiro</module>
-		<!-- Spring Boot 整合 Shiro JWT -->
-		<module>chapter07-03-shiro-jwt</module>
-		<!-- Spring Boot配置HTTPS -->
-		<module>chapter07-04-https</module>
-		
+        <module>chapter07-01-springsecurity</module>
+        <!-- Spring Boot 整合 Shiro -->
+        <module>chapter07-03-shiro</module>
+        <!-- Spring Boot 整合 Shiro JWT -->
+        <module>chapter07-03-shiro-jwt</module>
+        <!-- Spring Boot配置HTTPS -->
+        <module>chapter07-04-https</module>
+
 
         <!-- 第八章：Spring Boot企业开发 -->
         <!-- Spring Boot整合mail邮件发送 -->
-		<module>chapter08-01-mail</module>
+        <module>chapter08-01-mail</module>
         <!-- Spring Boot支持国际化i18n -->
-		<module>chapter08-02-i18n</module>
-		<!-- Spring Boot整合WebSocket -->
-		<module>chapter08-03-websocket</module>
-		
+        <module>chapter08-02-i18n</module>
+        <!-- Spring Boot整合WebSocket -->
+        <module>chapter08-03-websocket</module>
+
+        <!-- 第九章：Spring Boot整合消息队列 -->
+        <!-- Spring Boot整合Rabbit MQ简单案例 -->
+        <module>chapter09-01-rabbitmq-demo</module>
+        <!-- Spring Boot整合Rabbit MQ生产消息 -->
+        <module>chapter09-01-rabbitmq-producer</module>
+        <!-- Spring Boot整合Rabbit MQ接收消息 -->
+        <module>chapter09-01-rabbitmq-consumer</module>
+
 
     </modules>
 
@@ -101,12 +116,7 @@
         <springboot.project.version>2.1.0.RELEASE</springboot.project.version>
     </properties>
 
-    <!-- Spring Boot 启动父依赖 -->
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.0.RELEASE</version>
-    </parent>
+
 
     <!-- dependencyManagement简介 -->
     <!-- dependencyManagement元素的作用：对项目中多个模块的公关依赖进行版本控制 -->
@@ -231,18 +241,18 @@
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>${springboot.project.version}</version>
             </dependency>
-			<!-- spring shiro依赖 -->
-			<dependency>
-				<groupId>org.apache.shiro</groupId>
-				<artifactId>shiro-spring</artifactId>
-				<version>1.4.0</version>
-			</dependency>
-			<!-- JWT依赖 -->
-			<dependency>
-				<groupId>com.auth0</groupId>
-				<artifactId>java-jwt</artifactId>
-				<version>3.4.0</version>
-			</dependency>
+            <!-- spring shiro依赖 -->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>1.4.0</version>
+            </dependency>
+            <!-- JWT依赖 -->
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>3.4.0</version>
+            </dependency>
             <!-- spring-social-web 依赖 -->
             <dependency>
                 <groupId>org.springframework.social</groupId>
@@ -255,12 +265,12 @@
                 <artifactId>spring-boot-starter-mail</artifactId>
                 <version>${springboot.project.version}</version>
             </dependency>
-			<!--Spring Boot WebSocket 依赖 -->
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-websocket</artifactId>
+            <!--Spring Boot WebSocket 依赖 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-websocket</artifactId>
                 <version>${springboot.project.version}</version>
-			</dependency>
+            </dependency>
 
 
         </dependencies>
