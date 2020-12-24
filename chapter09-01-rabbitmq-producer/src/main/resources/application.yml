@@ -1,0 +1,10 @@
+server:
+  #设置Web容器端口号
+  port: 8081
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
