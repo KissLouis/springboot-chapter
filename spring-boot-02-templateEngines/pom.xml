@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<artifactId>spring-boot-examples</artifactId>
+		<groupId>com.louis</groupId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>spring-boot-02-templateEngines</artifactId>
+	<packaging>pom</packaging>
+
+	<description>Spring Boot整合模版引擎</description>
+
+	<modules>
+		<!--Spring Boot整合模版引擎：Thymeleaf -->
+		<module>spring-boot-thymeleaf</module>
+		<!--Spring Boot整合模版引擎：FreeMarker -->
+		<module>spring-boot-freemarker</module>
+	</modules>
+
+</project>
