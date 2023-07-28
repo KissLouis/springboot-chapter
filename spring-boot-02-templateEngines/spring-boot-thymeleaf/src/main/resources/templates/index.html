@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+</head>
+<body>
+<h1>hello,Thymeleaf</h1>
+<!--获取变量值-->
+<h2 th:utext="${people}"></h2>
+<!--遍历变量值-->
+<h3 th:each="type :${peopleType}" th:text="${type}" ></h3>
+
+</body>
+</html>
