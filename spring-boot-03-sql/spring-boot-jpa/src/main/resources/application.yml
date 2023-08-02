@@ -1,0 +1,16 @@
+# 数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot_examples?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+  jpa:
+    database: mysql
+    show-sql: true
+    #读取实体类column注解数据
+    hibernate:
+      #JPA映射策略：不做修改，直接映射
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
