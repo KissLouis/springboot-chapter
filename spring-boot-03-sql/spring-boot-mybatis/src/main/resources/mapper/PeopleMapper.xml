@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.louis.springbootmybatis.mapper.PeopleMapper">
+
+    <resultMap id="peopleListMap" type="com.louis.springbootmybatis.entity.People">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <sql id="Base_column_List">
+        id,name,age
+    </sql>
+
+    <select id="findById" resultMap="peopleListMap">
+        SELECT
+        <include refid="Base_column_List"/>
+        FROM people
+        <where>
+            1 = 1
+            <if test=" id != null and id != '' ">
+                and id = #{id}
+            </if>
+        </where>
+    </select>
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from people where id = #{id};
+    </delete>
+
+
+    <update id="update" parameterType="com.louis.springbootmybatis.entity.People">
+        update people
+        <set>
+            <if test=" name != null ">name=#{name},</if>
+        </set>
+        where id=#{id}
+    </update>
+
+    <insert id="save" parameterType="com.louis.springbootmybatis.entity.People">
+        insert into people(name,age) VALUES (#{name},#{age})
+    </insert>
+
+</mapper>
