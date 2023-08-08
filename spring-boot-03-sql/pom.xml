@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.louis</groupId>
+		<artifactId>spring-boot-examples</artifactId>
+		<version>1.0</version>
+	</parent>
+
+
+	<artifactId>spring-boot-03-sql</artifactId>
+	<packaging>pom</packaging>
+
+	<description>Spring Boot整合SQL数据库篇</description>
+
+	<modules>
+		<!--Spring Boot整合JPA -->
+		<module>spring-boot-jpa</module>
+		<!--Spring Boot整合mybatis -->
+		<module>spring-boot-mybatis</module>
+		<!--Spring Boot注解方式整合mybatis -->
+		<module>spring-boot-mybatis-annotation</module>
+		<!--Spring Boot注解方式整合mybatis-plus -->
+		<module>spring-boot-mybatis-plus</module>
+		<!--Spring Boot注解方式整合mybatis-flex -->
+		<module>spring-boot-mybatis-flex</module>
+	</modules>
+
+</project>
