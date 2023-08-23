@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      host: 81.68.220.176
+      port: 27017
+      username: root
+      password: '123456'
+      database: admin
