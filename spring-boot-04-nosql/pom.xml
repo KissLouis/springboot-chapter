@@ -11,7 +11,7 @@
     <artifactId>spring-boot-04-nosql</artifactId>
     <packaging>pom</packaging>
 
-    <description>Spring Boot整合SQL数据库篇</description>
+    <description>Spring Boot整合NoSQ及数据缓存</description>
 
     <modules>
         <!--Spring Boot整合redis -->
