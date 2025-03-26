@@ -6,3 +6,10 @@ spring:
       username: root
       password: '123456'
       database: admin
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG #配置MongoTemplate日志
