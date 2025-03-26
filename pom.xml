@@ -25,6 +25,8 @@
 		<module>spring-boot-03-sql</module>
 		<!-- Spring Boot整合NoSQ及数据缓存 -->
 		<module>spring-boot-04-nosql</module>
+		<!-- Spring Boot整合任务调度及批处理 -->
+		<module>spring-boot-05-batch</module>
 	</modules>
 
 </project>
