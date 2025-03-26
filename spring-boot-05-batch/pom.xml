@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.louis</groupId>
+        <artifactId>spring-boot-examples</artifactId>
+        <version>1.0</version>
+    </parent>
+    <artifactId>spring-boot-05-batch</artifactId>
+    <packaging>pom</packaging>
+
+    <description>Spring Boot整合任务调度及批处理</description>
+
+    <modules>
+        <!--Spring Boot整合SpringTask实现简单任务调度 -->
+        <module>spring-boot-task</module>
+    </modules>
+
+
+</project>
