@@ -20,6 +20,8 @@
         <module>spring-boot-redis-annotation</module>
         <!--Spring Boot整合mongodb -->
         <module>spring-boot-mongodb</module>
+        <!--Spring Boot 整合 EhCache 实现缓存操作 -->
+        <module>spring-boot-ehcache</module>
     </modules>
 
 </project>
