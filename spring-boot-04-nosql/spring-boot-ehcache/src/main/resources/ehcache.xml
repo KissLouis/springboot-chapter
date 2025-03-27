@@ -1,0 +1,21 @@
+<config xmlns="http://www.ehcache.org/v3">
+    <!-- People缓存配置 -->
+    <cache alias="peopleCache">
+        <key-type>java.lang.Integer</key-type>
+        <value-type>com.louis.springbootehcache.entity.People</value-type>
+        <expiry>
+            <ttl unit="minutes">10</ttl>
+        </expiry>
+        <heap unit="entries">1000</heap>
+    </cache>
+
+    <!-- Pet缓存配置 -->
+    <cache alias="petCache">
+        <key-type>java.lang.Integer</key-type>
+        <value-type>com.louis.springbootehcache.entity.Pet</value-type>
+        <expiry>
+            <ttl unit="minutes">10</ttl>
+        </expiry>
+        <heap unit="entries">1000</heap>
+    </cache>
+</config>
