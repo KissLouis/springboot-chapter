@@ -14,6 +14,12 @@
     <modules>
         <!--Spring Boot整合SpringTask实现简单任务调度 -->
         <module>spring-boot-task</module>
+        <!--Spring Boot整合Quartz实现动态任务调度 -->
+        <module>spring-boot-quartz</module>
+        <!--Spring Boot整合xxljob实现分布式任务调度 -->
+        <module>spring-boot-xxljob</module>
+        <!--Spring Boot整合SpringBatch实现批处理 -->
+        <module>spring-boot-springbatch</module>
     </modules>
 
 
