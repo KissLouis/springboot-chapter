@@ -27,6 +27,14 @@
 		<module>spring-boot-04-nosql</module>
 		<!-- Spring Boot整合任务调度及批处理 -->
 		<module>spring-boot-05-batch</module>
+		<!-- Spring Boot整合安全控制及权限篇 -->
+		<module>spring-boot-06-security</module>
+		<!-- Spring Boot整合消息队列 -->
+		<module>spring-boot-07-messaging</module>
+		<!-- Spring Boot集成搜索引擎 -->
+		<module>spring-boot-08-search</module>
+		<!-- Spring Boot整合模型构建AI应用 -->
+		<module>spring-boot-09-ai</module>
 	</modules>
 
 </project>
