@@ -2,14 +2,10 @@
 spring:
   application:
     name: spring-boot-rocketmq
-  servlet:
-    multipart:
-      max-file-size: 10MB       # ????????
-      max-request-size: 10MB
 
 rocketmq:
-  name-server: test.rocketmq.yaoweilai.top:9876  # RocketMQ NameServer??
+  name-server: 127.0.0.1:9876  # RocketMQ NameServer??
   producer:
-    group: demo-producer-group # ?????????????
+    group: demo-producer-group
   consumer:
-    group: demo-consumer-group # ?????????????
+    group: demo-consumer-group
