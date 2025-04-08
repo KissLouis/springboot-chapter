@@ -1,0 +1,11 @@
+# application.yml
+spring:
+  application:
+    name: spring-boot-rocketmq
+
+rocketmq:
+  name-server: 127.0.0.1:9876  # RocketMQ NameServer??
+  producer:
+    group: demo-producer-group
+  consumer:
+    group: demo-consumer-group
