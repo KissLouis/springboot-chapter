@@ -22,6 +22,8 @@
         <module>spring-boot-mongodb</module>
         <!--Spring Boot 整合 EhCache 实现缓存操作 -->
         <module>spring-boot-ehcache</module>
+        <!--Spring Boot 集成 Redisson 实现分布式锁 -->
+        <module>spring-boot-redisson</module>
     </modules>
 
 </project>
