@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-boot-redisson
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+
+
+singleServerConfig:
+  address: "redis://${spring.data.redis.host}:${spring.data.redis.port}"
+  password: ${spring.data.redis.password}
