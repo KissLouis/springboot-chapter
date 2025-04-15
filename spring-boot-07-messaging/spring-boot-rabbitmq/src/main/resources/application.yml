@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-boot-rabbitmq
+  rabbitmq:
+    host: 8.136.151.26
+    port: 5672
+    username: guest
+    password: guest
+    template:
+      default-receive-queue: people_queue
+    listener:
+      simple:
+        prefetch: 1
