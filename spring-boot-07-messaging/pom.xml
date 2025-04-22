@@ -14,7 +14,14 @@
     <description>Spring Boot集成消息队列</description>
 
     <modules>
-
+        <!--Spring Boot集成RocketMQ -->
+        <module>spring-boot-rocketmq</module>
+        <!--Spring Boot集成RabbitMQ -->
+        <module>spring-boot-rabbitmq</module>
+        <!--Spring Boot集成ActiveMQ -->
+        <module>spring-boot-activemq</module>
+        <!--Spring Boot集成WebSocket -->
+        <module>spring-boot-websocket</module>
     </modules>
 
 
