@@ -14,7 +14,8 @@
     <description>Spring Boot整合搜索引擎</description>
 
     <modules>
-
+        <!--Spring Boot集成ElasticSearch -->
+        <module>spring-boot-elasticsearch</module>
     </modules>
 
 
