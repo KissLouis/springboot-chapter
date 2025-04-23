@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-boot-elasticsearch
+  data:
+    elasticsearch:
+      client:
+        reactive:
+          endpoints: localhost:9200  # ES?????
+      connection-timeout: 5s         # ??????
