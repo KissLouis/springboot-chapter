@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-boot-deepseek
+deepseek:
+  api:
+    key: your-api-key
+    base-url: https://api.deepseek.com/v1
+    timeout: 5000
+    model: deepseek-chat
+    temperature: 0.7
