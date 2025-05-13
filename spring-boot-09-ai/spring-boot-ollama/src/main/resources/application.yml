@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-boot-ollama
+
+ollama:
+  api-url: http://localhost:11434/api/generate
