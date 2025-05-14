@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-boot-openai
+openai:
+  api-key: your-openai-api-key
