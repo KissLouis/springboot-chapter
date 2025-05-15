@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-boot-qwen
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1 # Qwen?API??
+      api-key: YOUR_API_KEY # ??????API-KEY
+      chat:
+        options:
+          model: qwen-turbo # ??Qwen??
