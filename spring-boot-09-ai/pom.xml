@@ -14,7 +14,14 @@
     <description>Spring Boot整合模型构建AI应用</description>
 
     <modules>
-
+        <!--Spring Boot接入 Ollama 调用模型 -->
+        <module>spring-boot-ollama</module>
+        <!--Spring Boot集成DeepSeek -->
+        <module>spring-boot-deepseek</module>
+        <!--Spring Boot集成OpenAI -->
+        <module>spring-boot-openai</module>
+        <!--Spring Boot调用Qwen模型：集成OpenAI方式 -->
+        <module>spring-boot-qwen</module>
     </modules>
 
 
